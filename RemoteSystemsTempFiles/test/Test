@@ -1,0 +1,70 @@
+PROGRAM test(casa, cachorro);
+label 1;
+const novaConstante = '';
+
+type 
+days, age = integer;
+yes, nottrue = boolean;
+name, city = string;
+fees, expenses = real; 
+
+
+var
+age, weekdays : integer;
+taxrate, net_income: real;
+choice, isready: boolean;
+initials, grade: char;
+name, surname : string;
+
+
+FUNCTION bissexto (a:integer) : boolean; 
+Begin 
+	(* corpo da função *)
+End;
+
+
+procedure swap(var c1,c2:char);
+begin
+	(* corpo da procedure *)
+end;
+
+Begin
+	
+(* comando for *)
+for a := 10  to 20 do
+begin
+	(* corpo do for *)
+end;
+
+End.
+
+
+
+===
+
+program forLoop;
+
+var
+a: integer;
+
+begin
+   
+b := b > 0;
+
+
+if color > red then
+   (* CÓDIGO DO CORPO DO IF *)
+
+else
+   (* CÓDIGO DO CORPO DO ELSE *)
+   
+   
+   
+    a := 10;
+   while  a < 20  do
+   
+   begin
+      (* CÓDIGO DO CORPO DO WHILE *)
+   end;
+
+end.

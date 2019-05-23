@@ -1,0 +1,61 @@
+program pascalTests;
+
+(* Definindo tipos *)
+type
+days = integer;
+text = string;
+test = boolean;
+price = real;
+
+(* Definindo variáveis *)
+var
+age, weekdays : integer;
+taxrate, net_income: real;
+choice, isready: boolean;
+initials, grade: char;
+name, surname : string;
+a, b, x, color, red : integer;
+c, y, w : boolean;
+
+(* Definindo funções *)
+FUNCTION bissexto (a:integer) : boolean; 
+Begin 
+	(* corpo da função *)
+End;
+
+
+(* Corpo do programa *)
+begin
+	a := 10;
+	
+	(* operadores aritméticos *)
+	a := a + b;
+	a := x - b;
+	a := a / b;
+	a := a * b;
+	
+	(* operadores relacionais *)
+	c := a = 10;
+	c := a <> 10;
+	c := a < 10;
+	c := a > 10;
+	c := a >= 10;
+	c := a <= 10;
+	
+	(* operadores booleanos *)
+	c := choice and isready;
+	c := choice or isready;
+	
+
+	if color > red then
+   		(* CÓDIGO DO CORPO DO IF *)
+	else
+   		(* CÓDIGO DO CORPO DO ELSE *)
+   
+
+	for a := 10  to 20 do
+	begin
+		(* CÓDIGO DO CORPO DO FOR *)
+	end;
+
+end.
